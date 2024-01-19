@@ -1,7 +1,7 @@
 from flask import Flask
-app = Flask(__name__)
-app = application
+application = Flask(__name__)
+#app = application
 
-@app.route('/')
+@application.route('/')
 def hello_world():
     return 'Sub.scbribe.... else go around....testimg'
